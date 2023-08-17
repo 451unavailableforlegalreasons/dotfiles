@@ -117,6 +117,15 @@ if ! shopt -oq posix; then
 fi
 
 
+
+#################################
+### CUSTOM ZONE
+#################################
+
+
+
+#set -o vi
+
 export PATH="/home/paul/softw/h:$PATH"
 export PATH="/home/paul/softw:$PATH"
 export PATH="/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java:$PATH"
