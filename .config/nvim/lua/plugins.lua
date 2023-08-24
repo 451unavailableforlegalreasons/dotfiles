@@ -23,15 +23,16 @@ require('packer').startup( function(use)
 	use {
   		'nvim-telescope/telescope.nvim', tag = '0.1.2',
   		requires = { {'nvim-lua/plenary.nvim'} },
-        config = [[require('config.telescope')]],
+        config = [[require('config.config_telescope')]],
 	}
     use {
         'theprimeagen/harpoon',
-         config = [[require('config.harpoon')]],
+         config = [[require('config.config_harpoon')]],
     }
     use 'christoomey/vim-tmux-navigator'
 
 
+    use 'm4xshen/autoclose.nvim'
 
 
 
@@ -91,3 +92,7 @@ require('onedark').load()
 
 -- Mason:
 require("mason").setup()
+
+
+--autoclose:
+require("autoclose").setup()
