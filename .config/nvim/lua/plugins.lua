@@ -23,11 +23,11 @@ require('packer').startup( function(use)
 	use {
   		'nvim-telescope/telescope.nvim', tag = '0.1.2',
   		requires = { {'nvim-lua/plenary.nvim'} },
-        config = [[require('config.config_telescope')]],
+        config = [[require('config.telescope')]],
 	}
     use {
         'theprimeagen/harpoon',
-         config = [[require('config.config_harpoon')]],
+         config = [[require('lua.config.harpoon')]],
     }
     use 'christoomey/vim-tmux-navigator'
 
