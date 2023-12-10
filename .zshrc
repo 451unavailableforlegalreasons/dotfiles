@@ -112,6 +112,7 @@ export PATH="/home/paul/softw:$PATH"
 export PATH="/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java:$PATH"
 export PATH="/home/paul/softw/h/srcs/sqlmap-dev:$PATH"
 . "$HOME/.cargo/env"
+export PATH="/home/paul/softw/node-v20.10.0-linux-x64/bin:$PATH"
 
 export NVIM_PATH="/home/paul/softw/neovim/nvim-linux64/bin"
 export TAILWINDPATH="/home/paul/softw/tailwindcss"
