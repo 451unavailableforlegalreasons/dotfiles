@@ -27,7 +27,7 @@ require('packer').startup( function(use)
 	}
     use {
         'theprimeagen/harpoon',
-         config = [[require('lua.config.harpoon')]],
+         config = [[require('config.harpoon')]],
     }
     use 'christoomey/vim-tmux-navigator'
 
